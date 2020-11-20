@@ -3,8 +3,6 @@ import bodyParser from 'body-parser';
 import graphqlHttp from 'express-graphql';
 import connectDB from './db/mongoose.js';
 import dotenv from 'dotenv';
-import Event from './models/events.js';
-import User from './models/user.js';
 
 import graphqlSchema from './graphql/schema/index.js';
 import graphqlResolvers from './graphql/resolvers/index.js';
