@@ -1,0 +1,47 @@
+.auth-form{
+    width: 40rem;
+    max-width: 80%;
+    margin: 5rem auto;
+}
+
+.form-control label,
+.form-control input{
+    width: 60%;
+    display: block;
+}
+
+.form-control input{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.form-control label{
+    margin-bottom: 0.5rem;
+}
+
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.form-actions button{
+    background-color: hotpink;
+    font: inherit;
+    border: hotpink;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.26);
+    color: white;
+    cursor:pointer;
+}
+
+.form-actions button:hover,
+.form-actions button:active {
+    transition: 500ms ease-in-out;
+    background-color: #9b1a9a;
+    border-color:#9b1a9a;
+}
+
+.form__header{
+    color: lightcoral;
+}
