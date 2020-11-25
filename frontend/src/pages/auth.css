@@ -24,9 +24,9 @@
 }
 
 .form-actions button{
-    background-color: hotpink;
+    background-color: #521851;
     font: inherit;
-    border: hotpink;
+    border: 1px solid #521851;
     border-radius: 4px;
     padding: 0.5rem 1rem;
     margin-right: 1rem;
@@ -38,10 +38,10 @@
 .form-actions button:hover,
 .form-actions button:active {
     transition: 500ms ease-in-out;
-    background-color: #9b1a9a;
-    border-color:#9b1a9a;
+    background: #7A2878;
+    border-color: #7A2878;
 }
 
 .form__header{
-    color: lightcoral;
+    color: #7A2878;
 }

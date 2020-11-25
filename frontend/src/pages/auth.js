@@ -86,7 +86,7 @@ class AuthPage extends Component{
         return (
             <div className="form__div">
                 <form className="auth-form" onSubmit={this.submitHandler}>
-                    <h1 className="form__header">SIGN IN</h1>
+                    <h1 className="form__header">{!this.state.isLogin ? 'Sign Up' : 'Sign In'}</h1>
                     <div className="form-control">
                         <label htmlFor="email">Email</label>
                         <input
@@ -112,7 +112,7 @@ class AuthPage extends Component{
                         >
                             Switch To {this.state.isLogin ? 'Sign Up' : 'Login'}
                         </button>
-                        <button type="submit">Submit</button>
+                        <button type="submit">{!this.state.isLogin ? 'Sign Up' : 'Login'}</button>
                     </div>
                 </form>
             </div>
