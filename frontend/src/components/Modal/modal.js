@@ -24,7 +24,7 @@ const modal = (props) => {
                             className="btn"
                             onClick={props.onConfirm}
                         >
-                            Confirm
+                            {props.confirmText}
                         </button>
                 }
             </section>
