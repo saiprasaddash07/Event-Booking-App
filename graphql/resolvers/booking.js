@@ -1,4 +1,6 @@
 import Booking from '../../models/booking.js';
+import Event from '../../models/events.js';
+
 import mergeFunctions from './merge.js';
 
 export default {
